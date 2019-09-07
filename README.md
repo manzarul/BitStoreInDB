@@ -1,2 +1,2 @@
 # BitStoreInDB
-Storing bit in side db. in that way one column can handle multiple values
+Storing bit/binary value in side db. in that way one column can handle multiple values.
