@@ -1,8 +1,11 @@
 ## BitStoreInDB
-BitStore is useful when you want to store multiple related values into a single DB column and when you read that column value it should convert this to actual meaning.
-In this example , we will see how to store those values and retrive it.
+BitStore is a technique for storing multiple related values within a single database column. This approach allows you to store a composite value (using bit flags) and decode it back into meaningful information when you read it.
 
-### this will defined an example of enum in java , which can be updated as per use case 
-- How to store bit flag inside db?
-- How can we retrive multiple attribute with one int value which is set inside DB.
-- Storing bit/binary value in side db. in that way one column can handle multiple values.
+This guide demonstrates how to implement BitStore with examples in Java. You can adapt the approach to suit your specific use case
+### Key Concepts
+- Storing Multiple Values in One Column: Learn how to store bit flags in a database column.
+- Decoding Stored Values: Understand how to retrieve and interpret multiple attributes from a single integer value stored in the database.
+- Efficient Storage with Bit/Binary Values: Optimize database storage by using a single column to handle multiple boolean-like values.
+
+### Example: Defining an Enum in Java
+ The example illustrates how to define and use an enum for managing bit flags, which you can update as needed based on your use case.
