@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BitStore
+  description: bit store in db
+  annotations:
+    github.com/project-slug: 'manzarul/bitstoreindb'
+spec:
+  type: service
+  lifecycle: production
+  owner: user:manzarul
